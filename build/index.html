@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>News homepage</title>
+    <link href="https://fonts.google.com/specimen/Inter" rel="stylesheet" />
+  </head>
+  <body class="lg:p-12 p-6 max-w-full flex flex-col">
+    <nav class="flex justify-between 2xl:ml-10">
+      <div>
+        <img src="../assets/images/logo.svg" />
+      </div>
+      <div>
+        <ul class="hidden lg:flex">
+          <li
+            class="text-slate-400 hover:text-orange-400 cursor-pointer ease-in-out duration-500"
+          >
+            Home
+          </li>
+          <li
+            class="ml-5 text-slate-400 hover:text-orange-400 cursor-pointer ease-in-out duration-500"
+          >
+            New
+          </li>
+          <li
+            class="ml-5 text-slate-400 hover:text-orange-400 cursor-pointer ease-in-out duration-500"
+          >
+            Popular
+          </li>
+          <li
+            class="ml-5 text-slate-400 hover:text-orange-400 cursor-pointer ease-in-out duration-500"
+          >
+            Trending
+          </li>
+          <li
+            class="ml-5 text-slate-400 hover:text-orange-400 cursor-pointer ease-in-out duration-500"
+          >
+            Categories
+          </li>
+        </ul>
+      </div>
+
+      <!-- Side Bar -->
+      <img class="lg:hidden sidebar" src="../assets/images/icon-menu.svg" />
+
+      <div
+        class="hidden sidebar_content fixed h-screen top-0 right-0 w-2/3 bg-white ease-in-out duration-1000"
+      >
+        <img
+          src="../assets/images/icon-menu-close.svg"
+          class="right-10 fixed top-10 close_sidebar"
+        />
+        <ul
+          class="flex flex-col mt-32 ml-10 justify-between text-lg text-slate-500 tracking-wider"
+        >
+          <li>Home</li>
+          <li class="pt-4">New</li>
+          <li class="pt-4">Popular</li>
+          <li class="pt-4">Trending</li>
+          <li class="pt-4">Categories</li>
+        </ul>
+      </div>
+    </nav>
+    <div class="lg:flex justify-evenly">
+      <header>
+        <div class="mt-8">
+          <div class="">
+            <img
+              class="md:hidden"
+              src="../assets/images/image-web-3-mobile.jpg"
+            />
+            <img
+              class="hidden md:block lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl"
+              src="../assets/images/image-web-3-desktop.jpg"
+            />
+          </div>
+          <div class="lg:flex justify-between">
+            <div class="">
+              <h1
+                class="lg:text-5xl text-4xl md:text-5xl text-black font-bold mt-7"
+              >
+                The Bright<br />
+                Future of Web 3.0?
+              </h1>
+            </div>
+            <div class="lg:flex flex-col items-start">
+              <p class="mt-7 text-gray-500 font-normal lg:max-w-sm">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button
+                class="mt-7 bg-red-500 border text-white pt-3 pb-3 pr-12 pl-12 tracking-widest text-left font-medium hover:bg-slate-900 ease-in-out duration-500"
+              >
+                READ MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="lg:mt-8 lg:ml-8 p-7 mt-16 bg-slate-900">
+        <h1 class="text-orange-300 font-semibold text-4xl">New</h1>
+        <h1
+          class="text-white mt-7 text-lg font-semibold hover:text-orange-300 ease-in-out duration-500 cursor-pointer"
+        >
+          Hydrogen VS Electric Cars
+        </h1>
+        <p class="text-white mt-3">
+          Will hydrogen-fueled cars ever catch up to EVs?
+        </p>
+        <div class="border bg-white mt-10"></div>
+        <h1
+          class="text-white mt-7 text-lg font-semibold hover:text-orange-300 ease-in-out duration-500 cursor-pointer"
+        >
+          The Downsides of AI Artistry
+        </h1>
+        <p class="text-white mt-3">
+          What are the possible adverse effects of on-demand AI image
+          generation??
+        </p>
+        <div class="border bg-white mt-10"></div>
+        <h1
+          class="text-white mt-7 text-lg font-semibold hover:text-orange-300 ease-in-out duration-500 cursor-pointer"
+        >
+          Is VC Funding Drying Up?
+        </h1>
+        <p class="text-white mt-3">
+          Private funding by VC firms is down 50% YOY. We take a look at what
+          that means
+        </p>
+      </section>
+    </div>
+    <div class="flex flex-col items-center">
+      <section class="mt-14 lg:flex items-center justify-start 2xl:ml-10">
+        <div class="flex lg:items-center lg:max-w-sm">
+          <img
+            class="h-48 sm:h-40 md:h-36 lg:flex items-center"
+            src="../assets/images/image-retro-pcs.jpg"
+          />
+          <div class="ml-8 lg:max-w-none lg:ml-5">
+            <h1 class="font-semibold text-4xl text-slate-200 leading-7">01</h1>
+            <h1
+              class="text-lg font-semibold mt-5 text-zinc-900 hover:text-red-400 cursor-pointer ease-in-out duration-500"
+            >
+              Reviving Retro PCs
+            </h1>
+            <p class="mt-5 text-slate-400 lg:max-w-none">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="flex lg:items-center lg:ml-5 mt-14">
+          <img
+            class="h-48 sm:h-40 md:h-36 lg:flex items-center"
+            src="../assets/images/image-top-laptops.jpg"
+          />
+          <div class="ml-8 lg:max-w-none">
+            <h1 class="font-semibold text-4xl text-slate-200 leading-7">02</h1>
+            <h1
+              class="text-lg font-semibold mt-5 text-zinc-900 hover:text-red-400 cursor-pointer ease-in-out duration-500"
+            >
+              Top 10 Laptops of 2022
+            </h1>
+            <p class="mt-5 text-slate-400 lg:max-w-xs">
+              Our best picks for various needs and budgets
+            </p>
+          </div>
+        </div>
+        <div class="flex lg:items-center lg:ml-6 mt-14">
+          <img
+            class="h-48 sm:h-40 md:h-36 lg:flex items-center"
+            src="../assets/images/image-gaming-growth.jpg"
+          />
+          <div class="ml-8 lg:max-w-none lg:ml-5">
+            <h1 class="font-semibold text-4xl text-slate-200 leading-7">03</h1>
+            <h1
+              class="text-lg font-semibold mt-5 text-zinc-900 hover:text-red-400 cursor-pointer ease-in-out duration-500"
+            >
+              The Growth of Gaming
+            </h1>
+            <p class="mt-5 text-slate-400">
+              How the pandemic has sparked fresh opportunities
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="attribution mt-10 text-slate-400">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="hover:text-orange-500"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="github.com/vicdiamond " class="hover:text-orange-600"
+          >Devvictor</a
+        >
+      </div>
+    </div>
+    <script>
+      document.querySelector('.sidebar').addEventListener('click', function () {
+        document.querySelector('.sidebar_content').classList.remove('hidden')
+      })
+      document
+        .querySelector('.close_sidebar')
+        .addEventListener('click', function () {
+          document.querySelector('.sidebar_content').classList.add('hidden')
+        })
+    </script>
+  </body>
+</html>
